@@ -10,6 +10,7 @@
 
 
 英文翻譯:
+
 Save File for Schedule I
 Currently using Vic7769 save files.
 
