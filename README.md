@@ -1,26 +1,58 @@
-# ScheduleISaveData
-用來存檔Schedule I 遊戲的存檔
-目前採用Vic7769存檔
+# 📦 Schedule I Save Data & Multiplayer Mod  
+# 📦 Schedule I 存檔與多人模組安裝教學
 
-多人模組安裝教學:
-1. 先安裝VC_redist.x64.exe 無腦下一步，如果顯示設定失敗，就是安裝過了，點關閉即可。
-2. 再打開MelonLoader.Installer.exe，選擇Schedule I 點INSTALL，安裝成功會顯示Reinstall跟Uninstall。
-3. 打開STEAM，點遊戲右鍵 - 管理 - 瀏覽本機檔案 - 會打開一個資料視窗 - 會有Mods資料夾
-4. 把FGMONOMutliplayer+.dll放進去Mods資料夾，就完成MODS安裝了。
+本專案提供《Schedule I》的存檔與多人模組安裝指南。
 
+This repository provides save data and a simple guide to install a multiplayer mod for **Schedule I**.
 
+---
 
-英文翻譯:
+## 💾 存檔資訊 / Save File Info
 
-Save File for Schedule I
-Currently using Vic7769 save files.
+目前使用 **Vic7769** 的遊戲存檔。  
+Currently using the **Vic7769** save file.
 
-Multiplayer Mod Installation Guide:
+---
 
-First, install VC_redist.x64.exe. Just click "Next" until it's done. If it shows "Setup Failed," that means it's already installed—just click "Close."
+## 👥 多人模組安裝教學 / Multiplayer Mod Installation Guide
 
-Next, open MelonLoader.Installer.exe, select Schedule I, and click INSTALL. If the installation is successful, you will see Reinstall and Uninstall buttons.
+### 1️⃣ 安裝必要環境 / Install Required Runtime
+- 安裝 `VC_redist.x64.exe`
+- 如果顯示 **"設定失敗 (Setup Failed)"**，代表你的系統已安裝，點選 **關閉 (Close)** 即可。
 
-Open Steam, right-click on the game → Manage → Browse local files. This will open the game folder where you'll find a Mods folder.
+Install `VC_redist.x64.exe`.  
+If it shows **"Setup Failed"**, it means it's already installed. Just click **Close**.
 
-Place FGMONOMultiplayer+.dll into the Mods folder. That’s it—MOD installation is complete!
+---
+
+### 2️⃣ 安裝 MelonLoader / Install MelonLoader
+- 開啟 `MelonLoader.Installer.exe`
+- 選擇 **Schedule I**，然後點選 **INSTALL**
+- 安裝完成後會顯示 **Reinstall** 和 **Uninstall** 按鈕
+
+Open `MelonLoader.Installer.exe`, select **Schedule I**, and click **INSTALL**.  
+If successful, you’ll see **Reinstall** and **Uninstall** options.
+
+---
+
+### 3️⃣ 開啟遊戲資料夾 / Locate Game Folder
+- 開啟 Steam
+- 對《Schedule I》右鍵 → **管理** → **瀏覽本機檔案**
+- 系統會開啟遊戲資料夾，裡面有一個 `Mods` 資料夾
+
+Open **Steam**, right-click on **Schedule I** → **Manage** → **Browse local files**.  
+You will find a `Mods` folder in the game directory.
+
+---
+
+### 4️⃣ 安裝 MOD / Install the Mod
+- 將 `FGMONOMultiplayer+.dll` 放入 `Mods` 資料夾
+- 完成安裝 🎉
+
+Copy `FGMONOMultiplayer+.dll` into the `Mods` folder.  
+You’re done—MOD is installed!
+
+---
+
+✅ 現在你可以突破 4 人限制，和更多朋友一起暢玩《Schedule I》！  
+✅ You’re now ready to play Schedule I with more than 4 players!
